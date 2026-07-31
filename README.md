@@ -1,15 +1,15 @@
 # 📚 Library API Test Automation Project
 
-This repository contains an end-to-end API test automation suite built with Postman for the official Postmanlabs Library API.
+This repository contains an end-to-end API test automation suite built with Postman for the official Postmanlabs Library API, designed to complement Python-based QA workflows.
 
 ## 🚀 Key Features
 * **Automated CRUD Scenario**: Chained requests for creating and retrieving books dynamically.
 * **Dynamic Variable Chaining**: Automatically extracts the `ID` from a newly created book response and stores it as a collection variable (`current_book_id`) for subsequent requests.
-* **Automation Ready**: Structured cleanly to enable seamless export and execution via CLI runner tools.
+* **Python Framework Integration**: Structured cleanly to enable seamless export and execution via Python subprocesses or CLI runner tools.
 
 ## 🛠️ Tech Stack & Tools
 * **Tool**: Postman
-* **Scripting**: JavaScript (Postman Post-response Scripts)
+* **Primary QA Stack**: Python Integration Ready (Pytest / Behave)
 * **Target API**: `https://postmanlabs.com`
 
 ## 📁 Repository Structure
